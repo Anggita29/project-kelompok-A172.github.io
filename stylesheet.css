@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+    color: #02ccba;
+  }
+
+  header{
+    width: 100%;
+    height: 63px;
+    background-color: rgba(36, 51, 90, 0.555);
+    position: fixed;
+    z-index: 10;
+  }
+
+  .logo {
+    padding: 2px;
+  }
+
+  .header-left {
+    float: left;
+  }
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+    
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .header-right {
+    float: left;
+  }
+
+  li {
+    list-style: none;
+    margin-right: 20px;
+    font-family: cursive;
+
+  }
+  .btn-header li {
+    float: left;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+  }
+
+  .btn {
+    color: white;
+    display: inline-block;
+    margin-right: 3px;
+  }
+
+  .btn:hover {
+    opacity: 0.7;
+  }
+
+  .top-wrapper{
+    padding-top: 180px;
+    padding-bottom: 100px;
+    color: white;
+    background-image: url(img/pexels-tom-fisk-2116719.jpg);
+    background-size: cover;
+    height: 625px;
+  }
+  .container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1170px;
+  }
+  .top-wrapper h1{
+    opacity: 0.9;
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  .top-wrapper p{
+    opacity: 0.9;
+    margin-bottom: 3px;
+    color: rgba(255, 255, 255, 0.993);
+    font-size: 20px;
+    line-height: 5px;
+  }
+
+  .lesson-wrapper {
+    background-color: #f7f7f7;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    padding-bottom: 30px;
+    margin-right: 40px;
+  }
+  
+  .lesson-icon img {
+    width: 128px;
+    height: 128px;
+  }
+
+  .lesson-icon p {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #2C3A47;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #aaa69d;
+  }
+
+  .clear {
+    clear: left;
+  }
+
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 85px;
+    text-align: center;
+  }
+  
+  .message {
+    float: left;
+    width: 100%;
+    display: flex;
+  }
+
+  .message-icon {
+    padding-bottom: 30px;
+    margin-right: 40px;
+    flex:auto;
+  }
+
+  .message-icon img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .message-icon p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #2C3A47;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+  }
+
+  .btn-message {
+    padding: 15px 40px;
+    background-color: #506ba5;
+    cursor: pointer;
+    box-shadow: 0 7px #190742;
+    color: rgb(231, 230, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .btn-message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+  }
+ 
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ededed;
+    margin: 0;
+    padding : 0;
+    box-sizing : border-box;
+  }
+ 
+  .footer{
+    padding : 20px 0;
+    background-color: #fff;
+  }
+
+  .judule h3 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color:darkslategray;
+    font-weight: normal;
+    text-align: center;
+    font-family: cursive;
+  }
+ 
+  .footer .social {
+    text-align: center;
+    padding-bottom: 25px ;
+    color: #4b4c4d;
+ 
+  }
+ 
+  .footer .social img {
+    font-size : 24px;
+    color :inherit;
+    border : 1px solid #ccc;
+    line-height: 8px;
+    display:inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;  
+    opacity: 0.8;
+    width: 40px; 
+    height : 40px;
+    cursor: pointer;
+  }
+ 
+  .footer .social img:hover {
+    opacity: 1;
+  }
+ 
+  .footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align:center;
+  }
+
+  .footer ul li {
+    display:inline-block;
+    padding: 0 15px;
+   }
+ 
+  .footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+ 
+  .footer ul li a:hover {
+    opacity:1;
+  }
+ 
+  .footer .copyright {
+    margin-top: 15px;
+    text-align:center;
+    font-size: 13;
+    color:#aaa;
+  }
+ 
+  .footer p {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24;
+    color:gray;
+    font-weight: bold;
+  }
+ 
+  .footer p:hover {
+    opacity:1;
+  }
