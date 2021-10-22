@@ -7,6 +7,7 @@
     .message {
         width: 50%;
         margin-bottom: 25px;
+        flex-direction: row;
       }
    
     .heading h2 {
@@ -15,6 +16,11 @@
     
     .top-wrapper h1 {
         font-size: 32px;
+      }
+    
+    .btn {
+        width: 50%;
+        text-align: center;
       }
 }
 
